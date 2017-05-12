@@ -1,0 +1,19 @@
+---
+title: "The Effort Report Podcast"
+author: "Alvin Thomas"
+date: '2017-04-27T21:12:14-05:00'
+tags:
+- Academia
+- Podcast
+comments: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+![](https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/20170427_effort_report.jpg)
+
+I wanted to give a quick shoutout to the [Effort Report Podcast](https://twitter.com/theeffortreport) hosted by [Roger Peng](https://twitter.com/rdpeng) and [Elizabeth Matsui](https://twitter.com/elizabethmatsui). Both hosts are faculty members at Johns Hopkins (School of Public Health & School of Medicine) and they discuss issues that any budding academic should consider. 
+
+I've listened to every podcast (some multiple times) and I've even joined the conversation on Twitter. 

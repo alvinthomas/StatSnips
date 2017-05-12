@@ -1,0 +1,37 @@
+---
+title: "Bash Stata on Oracle Grid Engine (JHPCE)"
+author: "Alvin Thomas"
+date: 2016-12-20T21:12:00-05:00
+tags: ["bash", "JHPCE", "Linux", "Stata"]
+comments: yes
+---
+
+
+
+<div class="figure">
+<img src="https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/20161220-bash-stata.jpg" />
+
+</div>
+<p>Some statistical jobs are either too memory-greedy or computationally intensive to run on a local machine. At the Johns Hopkins Medical Institutes (JHMI), researchers have access to a Linux cluster running a Oracle Grid Enginge (previously called the <a href="https://en.wikipedia.org/wiki/Oracle_Grid_Engine">Sun Grid Engine</a>).</p>
+<p>Jobs on the <a href="https://jhpce.jhu.edu/">Joint HPC Exchange</a> (JHPCE) can be run interactively with the <code>qrsh</code> command or through a <code>qsub</code> bash submission. JHPCE also has Stata-MP installed so that’s another reason why I use it for larger jobs.</p>
+<p>I usually submit a <code>qsub</code> job by writing <code>qsub Scripts/NAME_OF_SCRIPT</code> into terminal. All of my scripts are kept in the Scripts directory and usually named with the convention <code>run&lt;PROJECT&gt;_&lt;DO&gt;.sh</code> or <code>run017_05.sh</code> for a Stata bash file to run do file 05 in the 017 project (I explain my project organization in another post). The command <code>qsub Scripts/run017_05.sh</code> will read the follow script.</p>
+<pre><code>#!/bin/bash -l
+
+#$ -pe local 2
+#$ -l mem_free=3G
+#$ -l h_vmem=4G
+#$ -m e
+#$ -M alvin@jhmi.edu
+#$ -e efiles
+#$ -o ofiles
+
+cd ~/ERGOT/000_workspace/017_multi_donor
+stata-mp -b do 05_exp_multi
+exit
+</code></pre>
+<p>The line <code>-pe local 2</code> tells the cluster that I’ll need two computing cores. For JHPCE users - our current license only allows for 2-cores so there’s no benefit to requesting more.</p>
+<p>The lines <code>-l mem_free=3G</code> and <code>h_vmem=4G</code> tells the cluster that I need 3G of memory allocated to this job. If Stata starts requesting more that 4G, then the job will be aborted. Stata-MP tends to benefit more from computing cores than RAM, so I generally keep these requests low (I often don’t go over 1G of actual use). R, on the otherhand, is memory-greedy so I sometimes request 10-20G of memory for complex jobs.</p>
+<p>The next two lines, <code>-m -e</code> and <code>-M alvin@jhmi.edu</code> tell the cluster to send me an email when the job is done. I wouldn’t use this line if you’re submitting tons of jobs at once, but it’s useful for those one-off jobs that will take hours to complete.</p>
+<p>The next two lines, <code>-e efiles</code> and <code>-o ofiles</code> tells <code>qsub</code> to put error files in the efiles directory (located at <code>~/efiles</code>) and output files in the ofiles directory (located at <code>~/ofiles</code>).</p>
+<p>Finally, we get to the actual Stata part. First I change to the working directory with the <code>cd</code> command. Then I run bash stata using <code>stata-mp -b</code> - note that you could also write <code>stata-se -b</code> or <code>stata -b</code> if you don’t want to use Stata-MP. On the same line I submit the stata command <code>do</code> and the name of the do file. After that runs we’ll exit Stata with <code>exit</code>.</p>
+<p>Here’s a <a href="https://gist.github.com/alvinthomas/e8c13a5abd5a46b383b4c99a87935bf1">gist</a>.</p>

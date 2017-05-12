@@ -1,0 +1,35 @@
+---
+title: "A Note on Organization: Project Files"
+author: "Alvin Thomas"
+date: 2017-01-23T21:12:00-05:00
+tags: ["Misc"]
+comments: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+![](https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/20170123-organization.jpg)
+
+I appreciate organization in most aspects of my life and my digital footprint is no exception. I'm always looking for ways to optimize my workflow, I'll try to keep this post updated in the future.
+
+I use git to organize my work files - including text documents, presentations, and code. Git allows me to work across multiple platforms and control my versioning with decent precision. I work with sensitive data files so I always have git ignore data files (see gist). 
+
+All my work folders sit in my primary work directory (called ERGOT after my [lab](https://transplantepi.org/)). I then use three-digit codes to sequentially number my projects. I create "projects" pretty liberally. Some projects are formally assigned projects where I know I'll be writing papers and multiple files. Others are one-off analyses that don't fit into another space. 
+
+Sub-directory 000 is reserved for my workspace. In the root directory are non-code related files such as word documents, presentations, or pdfs. In the workspace are sub-directorys dedicated to code. Sub-directory 000 in my workspace is an example folder that contains a skeleton with .keep files so that git recognizes these folders. I have two reasons to keep my code seperate: 1) it looks so much better with my prefix system for do-files and R-scripts and 2) you can use 000_workspace as the directory for your text editor (I use [Atom](https://atom.io/)) and not be bogged down by non-script files. 
+
+So ERGOT/014_nepal would be papers I'm writing about research in Nepal and ERGOT/000_workspace/014_nepal would contain my scripts for the Nepal data analysis. 
+
+My data analysis directories have five sub-directories. 01_logs contains all Stata log files. 02_figs contains all figs. 03_models contains text files with logs or outreg output from models run in Stata or R. 04_tables contains text files or worksheets with table outputs from Stata or R. R_objects keeps all the R objects worth saving. 
+
+I then start writing do-files with two digit prefixes (staring with 05). In most cases I start with an exploration do file so ERGOT/000_workspace/014_nepal/05_explore.do would contain some of my exploratory data analysis code. R scripts start with R followed by two digits (e.g. R01_explore). I write more Stata scripts than R scripts so I don't mind pushing all R stuff lower in the ordering.
+
+Recently I created a new directory in my workspace called 999_scripts. I plan on storing scripts that are generalized for quick analyses. For example, I have a script that will pull the latest SRTR data file for kidney tranplants and calculate [KDPI](https://optn.transplant.hrsa.gov/resources/allocation-calculators/kdpi-calculator/). If I'm sitting in a talk about KDPI in the future and want to replicate an analysis in real-time I'll be able to just run 999_scripts/kdpi and then apply restrictions to get to the proper study population. 
+
+Today I've made a new reserved prefix. 998_bash contains all my bash files (used to submit cluster jobs). I used to have these sitting in a folder in my main work directory but these were always outside my Atom path. Writing this post made me realize that was a stupid system. 
+
+My root work directory also contains unnumbered folders for some extra stuff.
+
+Here's a [gist](https://gist.github.com/alvinthomas/f85e405acd64efe9cb9126b051c71914) of my gitignore. 

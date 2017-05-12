@@ -1,0 +1,70 @@
+baseurl = "https://alvinthomas.github.io/"
+relativeurls = true
+languageCode = "en-us"
+title = "StatSnips"
+author = "Alvin Thomas"
+theme = "blackburn"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+copyright = "&copy; 2017 Alvin Thomas. All Rights Reserved"
+canonifyurls = true
+paginate = 5
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    url = "/"
+[[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    url = "/about/"
+[[menu.main]]
+    name = "Blog GitHub"
+    pre = "<i class='fa fa-github fa-fw'></i>"
+    url = "https://github.com/alvinthomas/alvinthomas.github.io"
+[[menu.main]]
+  name = "Tags"
+  pre = "<i class='fa fa-tags fa-fw'></i>"
+  weight = 4
+  identifier = "tag"
+  url = "/tags/"
+[[menu.main]]
+  name = "Archive"
+  pre = "<i class='fa fa-archive fa-fw'></i>"
+  url = "/post/"
+
+[params]
+    description = ""
+    disqusShortname = "statsnips"
+    disqus = "statsnips"
+    brand = '<img src="https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/logo.png" height=25 </img>'
+    subtitle="Code snippets and musings from a statistically-inclined epidemiologist"
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  twitter = "alvinthomas13"
+
+  # SNS career oriented
+  linkedin = "alvinthomas13"
+
+  # Techie
+  github = "alvinthomas"
+  gitlab = "alvinthomas"
+  stackoverflow = "7292351"

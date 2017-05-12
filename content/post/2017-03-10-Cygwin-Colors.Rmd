@@ -1,0 +1,25 @@
+---
+title: "Cygwin Colors"
+author: "Alvin Thomas"
+date: 2017-03-10T21:12:00-05:00
+tags:
+- Windows
+- Linux
+- Cygwin
+- Mintty
+comments: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+![](https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/20170310-pac.png)
+
+I recently discovered that [Mintty](https://mintty.github.io/) is a great way to make your [Cygwin](https://cygwin.com/) terminal prettier. Mintty made my conversation from Fedora to Windows 10 and Cygwin more palatable.
+
+Like all Cygwin pacakges/add-ons you'll have to install it using the Cygwin installer. You can find some quick instructions at [HowToGeek](https://www.howtogeek.com/68511/how-to-improve-your-cygwin-experience-with-mintty/). 
+
+While there are a number of themes out there, I really like [this](https://github.com/oumu/mintty-color-schemes) Base-16 inspired set. I've also done some other tweaks to make my Cygwin terminal behave like my Mac Terminal (such as transparency when not in focus). 
+
+Here's a [gist](https://gist.github.com/alvinthomas/31b0746810903472a7b1017ea00fec4a).

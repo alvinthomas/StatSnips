@@ -1,0 +1,38 @@
+---
+title: "Bash R on Oracle Grid Engine (JHPCE)"
+author: "Alvin Thomas"
+date: 2016-12-20T21:12:00-05:00
+tags: ["bash", "JHPCE", "Linux", "R"]
+comments: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+![](https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/20161220-bash-R.jpg)
+
+I recently link [posted](https://alvinthomas.github.io/2016/12/20/Bash-Stata-on-Oracle-Grid-Engine-JHPCE/) on submitting Stata jobs to a Linux computing cluster running the Oracle Grid Engine. Here's a quick post on how to submit a R job.
+
+I usually submit a `qsub` job by writing `qsub Scripts/NAME_OF_SCRIPT` into terminal. My R scripts use the following naming convention: `R<PROJECT>_v<NUM>.sh` or `R_018v1.sh` for a R bash file to run the v1 R script in the 018 project (I explain my project organization in another post). The command `qsub Scripts/R018v1.sh` will read the follow script. 
+
+```
+#!/bin/bash -l
+
+#$ -pe local 1
+#$ -l mem_free=20G
+#$ -l h_vmem=22G
+#$ -m e
+#$ -M alvin@jhmi.edu
+#$ -o ofiles
+#$ -e efiles
+
+R CMD BATCH ~/ERGOT/000_workspace/018_pump/try_med.R \
+~/ERGOT/000_workspace/018_pump/01_logs/output.txt
+```
+
+Please refer to my previous post to learn more about the `qsub` options in the lines that start with `#$`. 
+
+Now the the single R line. I usually submit from my work root file so here I write out the full paths to the R file and then provide R with where I want the log file output. Note that the `\` could be removed and the two lines combined. That's it! 
+
+Here's a [gist](https://gist.github.com/alvinthomas/87b9aafe0d2770fd3ee41655bf81abf5).

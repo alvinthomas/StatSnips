@@ -1,0 +1,26 @@
+---
+title: "Stata Schemes"
+author: "Alvin Thomas"
+date: '2017-05-12T09:11:23-05:00'
+tags:
+- Stata
+- visualization
+comments: yes
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+![](https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/20170512-stata-schemes.jpg)
+
+Would you be surprised to find out that the figures above were made in Stata? I discover the work of [Daniel Bischof](https://danbischof.com/2015/02/04/stata-figure-schemes/) about a year ago and it has changed the way I think about Stata figures. 
+
+I have been a long time user of [ggplot2](http://ggplot2.org/), the graphing [R](https://www.r-project.org/) package by R Guru [Hadley Wickham](http://hadley.nz/). Some of my publication figures using ggplot2 are dozens of lines long. I enjoy fiddling with every aspect of the aesthetic to make a perfectly clear visualization. I also enjoyed making my own [ggthemes](https://github.com/jrnold/ggthemes) to automate some of my particular preferences. 
+
+Then I took a job with ERGOT. Our group loves [Stata](http://www.stata.com/). It seemed like too much work to write everything in R when only one other person could read it. So I decided to dive into Stata graphics and figure out how to make pretty plots. I yearned for that ggplot2 feel and the control of ggthemes. Then came along plotplainblind and plottig. 
+
+Bischof's package is a must have for any Stata user interested in making beautiful figures. While Stata does have some reasonable [schemes](http://www.stata.com/help.cgi?schemes) built-in, the simple beauty of plotplainblind makes it my go-to scheme. Moreover, plotplainblind also features colors that are distinguishable to those with color blindness (ggplot2 users can find a color-blind safe palette [here](http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/)).
+
+I'll post a gist in an update to this post.

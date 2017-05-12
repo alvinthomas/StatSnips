@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on StatSnips</title>
+    <link>https://alvinthomas.github.io/tags/</link>
+    <description>Recent content in Tags on StatSnips</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Alvin Thomas. All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 27 Apr 2017 21:12:14 -0500</lastBuildDate>
+    
+	<atom:link href="https://alvinthomas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Academia</title>
+      <link>https://alvinthomas.github.io/tags/academia/</link>
+      <pubDate>Thu, 27 Apr 2017 21:12:14 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/academia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://alvinthomas.github.io/tags/bash/</link>
+      <pubDate>Tue, 20 Dec 2016 21:12:00 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cygwin</title>
+      <link>https://alvinthomas.github.io/tags/cygwin/</link>
+      <pubDate>Fri, 10 Mar 2017 21:12:00 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/cygwin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>https://alvinthomas.github.io/tags/general/</link>
+      <pubDate>Mon, 12 Dec 2016 21:13:14 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jhpce</title>
+      <link>https://alvinthomas.github.io/tags/jhpce/</link>
+      <pubDate>Tue, 20 Dec 2016 21:12:00 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/jhpce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://alvinthomas.github.io/tags/linux/</link>
+      <pubDate>Fri, 10 Mar 2017 21:12:00 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mintty</title>
+      <link>https://alvinthomas.github.io/tags/mintty/</link>
+      <pubDate>Fri, 10 Mar 2017 21:12:00 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/mintty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>https://alvinthomas.github.io/tags/misc/</link>
+      <pubDate>Mon, 23 Jan 2017 21:12:00 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>https://alvinthomas.github.io/tags/open-source/</link>
+      <pubDate>Mon, 12 Dec 2016 21:13:14 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Podcast</title>
+      <link>https://alvinthomas.github.io/tags/podcast/</link>
+      <pubDate>Thu, 27 Apr 2017 21:12:14 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://alvinthomas.github.io/tags/r/</link>
+      <pubDate>Tue, 20 Dec 2016 21:12:00 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stata</title>
+      <link>https://alvinthomas.github.io/tags/stata/</link>
+      <pubDate>Fri, 12 May 2017 09:11:23 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/stata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualization</title>
+      <link>https://alvinthomas.github.io/tags/visualization/</link>
+      <pubDate>Fri, 12 May 2017 09:11:23 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://alvinthomas.github.io/tags/windows/</link>
+      <pubDate>Fri, 10 Mar 2017 21:12:00 -0500</pubDate>
+      
+      <guid>https://alvinthomas.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
