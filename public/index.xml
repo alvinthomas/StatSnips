@@ -104,5 +104,17 @@ Jobs on the Joint HPC Exchange (JHPCE) can be run interactively with the qrsh co
  I hope to use this space to post code snippets to make my life and the lives of other statistical programmers easier. As an epidemiologist, I use data from national registries and clinical trials to answer interesting questions in public health, surgery, and medicine. I code mostly in Stata and R, but I’m always interested in optimizing my workflow and learning new techniques.</description>
     </item>
     
+    <item>
+      <title>Contact</title>
+      <link>https://alvinthomas.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alvinthomas.github.io/contact/</guid>
+      <description> This is a data science blog maintained by Alvin G. Thomas.
+If you have any questions, please contact me by email.
+You can also contact me on:
+ @alvinthomas13   @alvinthomas   </description>
+    </item>
+    
   </channel>
 </rss>
