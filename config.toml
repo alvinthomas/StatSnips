@@ -57,6 +57,7 @@ paginate = 5
     description = ""
     disqusShortname = "statsnips"
     disqus = "statsnips"
+    googleAnalytics = "UA-99083233-1"
     brand = '<img src="https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/logo.png" height=25 </img>'
     subtitle="Code snippets and musings from a statistically-inclined epidemiologist"
     # options for highlight.js (version, additional languages, and theme)
