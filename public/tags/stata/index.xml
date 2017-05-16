@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stata on StatSnips</title>
-    <link>https://alvinthomas.github.io/tags/stata/</link>
+    <link>/tags/stata/</link>
     <description>Recent content in Stata on StatSnips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Alvin Thomas. All Rights Reserved</copyright>
     <lastBuildDate>Fri, 12 May 2017 09:11:23 -0500</lastBuildDate>
     
-	<atom:link href="https://alvinthomas.github.io/tags/stata/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/stata/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Stata Schemes</title>
-      <link>https://alvinthomas.github.io/2017/05/12/stata-schemes/</link>
+      <link>/2017/05/12/stata-schemes/</link>
       <pubDate>Fri, 12 May 2017 09:11:23 -0500</pubDate>
       
-      <guid>https://alvinthomas.github.io/2017/05/12/stata-schemes/</guid>
+      <guid>/2017/05/12/stata-schemes/</guid>
       <description>Would you be surprised to find out that the figures above were made in Stata? I discover the work of Daniel Bischof about a year ago and it has changed the way I think about Stata figures.
 I have been a long time user of ggplot2, the graphing R package by R Guru Hadley Wickham. Some of my publication figures using ggplot2 are dozens of lines long. I enjoy fiddling with every aspect of the aesthetic to make a perfectly clear visualization.</description>
     </item>
     
     <item>
       <title>Stata Log Files</title>
-      <link>https://alvinthomas.github.io/2017/01/23/stata-log-files/</link>
+      <link>/2017/01/23/stata-log-files/</link>
       <pubDate>Mon, 23 Jan 2017 21:13:14 -0500</pubDate>
       
-      <guid>https://alvinthomas.github.io/2017/01/23/stata-log-files/</guid>
+      <guid>/2017/01/23/stata-log-files/</guid>
       <description>I prefer to create new log files every time I (fully) run a Stata script. When I’m writing a script or testing code I might stop logging, but in general it’s wise to keep logs of important runs.
 I store my logs in their own directory so that they don’t clog up my code directory (see organization). I title them with the scripts name followed by the date and time.</description>
     </item>
     
     <item>
       <title>Bash Stata on Oracle Grid Engine (JHPCE)</title>
-      <link>https://alvinthomas.github.io/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</link>
+      <link>/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</link>
       <pubDate>Tue, 20 Dec 2016 21:12:00 -0500</pubDate>
       
-      <guid>https://alvinthomas.github.io/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</guid>
+      <guid>/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</guid>
       <description>Some statistical jobs are either too memory-greedy or computationally intensive to run on a local machine. At the Johns Hopkins Medical Institutes (JHMI), researchers have access to a Linux cluster running a Oracle Grid Enginge (previously called the Sun Grid Engine).
 Jobs on the Joint HPC Exchange (JHPCE) can be run interactively with the qrsh command or through a qsub bash submission. JHPCE also has Stata-MP installed so that’s another reason why I use it for larger jobs.</description>
     </item>
