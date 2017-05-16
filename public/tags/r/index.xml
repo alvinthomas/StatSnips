@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on StatSnips</title>
-    <link>/tags/r/</link>
+    <link>https://alvinthomas.github.io/tags/r/</link>
     <description>Recent content in R on StatSnips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Alvin Thomas. All Rights Reserved</copyright>
     <lastBuildDate>Tue, 20 Dec 2016 21:12:00 -0500</lastBuildDate>
     
-	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alvinthomas.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bash R on Oracle Grid Engine (JHPCE)</title>
-      <link>/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</link>
+      <link>https://alvinthomas.github.io/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</link>
       <pubDate>Tue, 20 Dec 2016 21:12:00 -0500</pubDate>
       
-      <guid>/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</guid>
+      <guid>https://alvinthomas.github.io/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</guid>
       <description>I recently link posted on submitting Stata jobs to a Linux computing cluster running the Oracle Grid Engine. Here’s a quick post on how to submit a R job.
 I usually submit a qsub job by writing qsub Scripts/NAME_OF_SCRIPT into terminal. My R scripts use the following naming convention: R&amp;lt;PROJECT&amp;gt;_v&amp;lt;NUM&amp;gt;.sh or R_018v1.sh for a R bash file to run the v1 R script in the 018 project (I explain my project organization in another post).</description>
     </item>
