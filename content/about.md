@@ -18,7 +18,7 @@ Ashton is a MD/PhD student at The Johns Hopkins University School of Medicine an
 
 {{% fluid_img "https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/bryn_small.jpg" %}}
 
-Bryn is a two-year pup. Bryn did her dog-sertation on the "Identification of Geospatial Treat Clustering using iterative gaussian model spliting." She enjoys bike rides, rawhides, and laying in the sun.
+Bryn is a two-year pup. Bryn did her dog-sertation on the "Identification of Geospatial Treat Clustering using Iterative Gaussian Model Spliting." She enjoys bike rides, rawhides, and laying in the sun.
 
 The content of this blog represents the views of the authors and not the opinion of The Johns Hopkins University or any other entities.
 
