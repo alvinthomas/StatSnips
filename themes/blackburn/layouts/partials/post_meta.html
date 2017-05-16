@@ -7,6 +7,18 @@
 
   {{ $baseUrl := .Site.BaseURL }}
 
+  {{ if isset .Params "authors" }}
+  {{ $count := len .Params.authors }}
+  {{ if gt $count 0 }}
+  <div>
+    <i class="fa fa-pencil fa-fw"></i>
+    {{ range $k, $v := .Params.authors }}
+      <a class="post-taxonomy-authors" href="{{ $baseUrl }}authors/{{ . | urlize }}">{{ . }}</a>{{ if lt $k (sub $count 1) }}&nbsp;&#47;{{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ end }}
+
   {{ if isset .Params "topics" }}
   {{ $count := len .Params.topics }}
   {{ if gt $count 0 }}

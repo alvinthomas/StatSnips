@@ -2,7 +2,6 @@ baseurl = "https://alvinthomas.github.io/"
 relativeurls = true
 languageCode = "en-us"
 title = "StatSnips"
-author = "Alvin Thomas"
 theme = "blackburn"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 copyright = "&copy; 2017 Alvin Thomas. All Rights Reserved"
@@ -15,6 +14,7 @@ paginate = 5
 [indexes]
   tag = "tags"
   topic = "topics"
+  author = "authors"
 
 [[menu.main]]
     name = "Home"
@@ -41,21 +41,28 @@ paginate = 5
   identifier = "tag"
   url = "/tags/"
 [[menu.main]]
+  name = "Authors"
+  pre = "<i class='fa fa-pencil fa-fw'></i>"
+  weight = 5
+  identifier = "tag"
+  url = "/authors/"
+[[menu.main]]
     name = "Contact"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 5
+    weight = 6
     identifier = "contact"
     url = "/contact/"
 [[menu.main]]
     name = "Blog GitHub"
     pre = "<i class='fa fa-github fa-fw'></i>"
     identifier = "github"
-    weight = 6
+    weight = 7
     url = "https://github.com/alvinthomas/alvinthomas.github.io"
 
 [params]
     description = ""
     disqusShortname = "statsnips"
+    author = "Alvin Thomas"
     disqus = "statsnips"
     googleAnalytics = "UA-99083233-1"
     brand = '<img src="https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/logo.png" height=25 </img>'

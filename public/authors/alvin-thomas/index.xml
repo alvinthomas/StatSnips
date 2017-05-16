@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>StatSnips</title>
-    <link>https://alvinthomas.github.io/</link>
-    <description>Recent content on StatSnips</description>
+    <title>Alvin Thomas on StatSnips</title>
+    <link>https://alvinthomas.github.io/authors/alvin-thomas/</link>
+    <description>Recent content in Alvin Thomas on StatSnips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Alvin Thomas. All Rights Reserved</copyright>
     <lastBuildDate>Fri, 12 May 2017 09:11:23 -0500</lastBuildDate>
     
-	<atom:link href="https://alvinthomas.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alvinthomas.github.io/authors/alvin-thomas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,17 +20,6 @@
       <guid>https://alvinthomas.github.io/2017/05/12/stata-schemes/</guid>
       <description>Would you be surprised to find out that the figures above were made in Stata? I discover the work of Daniel Bischof about a year ago and it has changed the way I think about Stata figures.
 I have been a long time user of ggplot2, the graphing R package by R Guru Hadley Wickham. Some of my publication figures using ggplot2 are dozens of lines long. I enjoy fiddling with every aspect of the aesthetic to make a perfectly clear visualization.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://alvinthomas.github.io/about/</link>
-      <pubDate>Thu, 11 May 2017 21:48:51 -0700</pubDate>
-      
-      <guid>https://alvinthomas.github.io/about/</guid>
-      <description>This is a data science blog maintained by Alvin G. Thomas.
-Alvin is Research Data Analyst with the Epidemiology Research Group in Transplantation (ERGOT) at the Johns Hopkins University School of Medicine. He currently uses national registry data to answer interesting questions in transplantation. The content of this blog represents his views and not the opinion of his employer.
-This blog was created using the blogdown package in R with the Blackburn Theme.</description>
     </item>
     
     <item>
@@ -102,18 +91,6 @@ Jobs on the Joint HPC Exchange (JHPCE) can be run interactively with the qrsh co
       <guid>https://alvinthomas.github.io/2016/12/12/hello-world/</guid>
       <description>You might not think that programmers are artists, but programming is an extremely creative profession. It’s logic-based creativity. - John Romero
 I hope to use this space to post code snippets to make my life and the lives of other statistical programmers easier. As an epidemiologist, I use data from national registries and clinical trials to answer interesting questions in public health, surgery, and medicine. I code mostly in Stata and R, but I’m always interested in optimizing my workflow and learning new techniques.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://alvinthomas.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alvinthomas.github.io/contact/</guid>
-      <description>This is a data science blog maintained by Alvin G. Thomas.
-If you have any questions, please contact me by email.
-You can also contact me on:
- @alvinthomas13   @alvinthomas   </description>
     </item>
     
   </channel>

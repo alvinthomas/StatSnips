@@ -1,6 +1,7 @@
 ---
 title: "Hello World"
-author: "Alvin Thomas"
+authors: 
+- "Alvin Thomas"
 date: 2016-12-12T21:13:14-05:00
 tags: ["General", "Open Source"]
 comments: yes
