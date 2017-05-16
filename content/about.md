@@ -16,7 +16,7 @@ Alvin is Research Data Analyst with the Epidemiology Research Group in Transplan
 
 Ashton is a MD/PhD student at The Johns Hopkins University School of Medicine and JHU Bloomberg School of Public Health. Her research focuses on the intersection of infectious disease epidemiology and solid organ transplantation.
 
-{{% fluid_img class="pure-u-sm" src="https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/bryn_small.jpg" caption="Woof" %}}
+{{% fluid_img "https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/bryn_small.jpg" %}}
 
 Bryn is a two-year pup. Bryn did her dog-sertation on the "Identification of Geospatial Treat Clustering using Iterative Gaussian Model Spliting." She enjoys bike rides, rawhides, and laying in the sun.
 
