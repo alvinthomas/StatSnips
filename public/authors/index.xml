@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on StatSnips</title>
-    <link>https://alvinthomas.github.io/authors/</link>
+    <link>/authors/</link>
     <description>Recent content in Authors on StatSnips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Alvin Thomas. All Rights Reserved</copyright>
     <lastBuildDate>Fri, 12 May 2017 09:11:23 -0500</lastBuildDate>
     
-	<atom:link href="https://alvinthomas.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alvin Thomas</title>
-      <link>https://alvinthomas.github.io/authors/alvin-thomas/</link>
+      <link>/authors/alvin-thomas/</link>
       <pubDate>Fri, 12 May 2017 09:11:23 -0500</pubDate>
       
-      <guid>https://alvinthomas.github.io/authors/alvin-thomas/</guid>
+      <guid>/authors/alvin-thomas/</guid>
       <description></description>
     </item>
     
