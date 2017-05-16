@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source on StatSnips</title>
-    <link>https://alvinthomas.github.io/tags/open-source/</link>
+    <link>/tags/open-source/</link>
     <description>Recent content in Open Source on StatSnips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Alvin Thomas. All Rights Reserved</copyright>
     <lastBuildDate>Mon, 12 Dec 2016 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="https://alvinthomas.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World</title>
-      <link>https://alvinthomas.github.io/2016/12/12/hello-world/</link>
+      <link>/2016/12/12/hello-world/</link>
       <pubDate>Mon, 12 Dec 2016 21:13:14 -0500</pubDate>
       
-      <guid>https://alvinthomas.github.io/2016/12/12/hello-world/</guid>
+      <guid>/2016/12/12/hello-world/</guid>
       <description>You might not think that programmers are artists, but programming is an extremely creative profession. It’s logic-based creativity. - John Romero
 I hope to use this space to post code snippets to make my life and the lives of other statistical programmers easier. As an epidemiologist, I use data from national registries and clinical trials to answer interesting questions in public health, surgery, and medicine. I code mostly in Stata and R, but I’m always interested in optimizing my workflow and learning new techniques.</description>
     </item>
