@@ -11,7 +11,7 @@ comments: yes
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-![](https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/20161212-helloworld.jpg)
+![](https://raw.githubusercontent.com/StatSnips/statsnips.github.io/master/images/20161212-helloworld.jpg)
 
 > You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity.
 > - John Romero

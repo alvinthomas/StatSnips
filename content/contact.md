@@ -2,14 +2,14 @@
 title: "Contact"
 ---
 
-{{% fluid_img "https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/logo.png" %}}
+{{% fluid_img "https://raw.githubusercontent.com/StatSnips/statsnips.github.io/master/images/logo.png" %}}
 
 
-This is a data science blog maintained by [**Alvin G. Thomas**](https://github.com/alvinthomas). 
+This is a data science blog maintained by [**Alvin G. Thomas, MSPH**](https://github.com/alvinthomas) and [**Ashton Shaffer, BA**](https://github.com/ashtonashaffer). Additonal support is provided by **Bryn Shaffer, PhDog**. 
 
-If you have any questions, please contact me by <a href="mailto:alvin@jhmi.edu">email</a>.
+If you have any questions, please contact Alvin by <a href="mailto:alvin@jhmi.edu">email</a>.
 
-You can also contact me on:
+You can also contact Alvin on:
 
 <ul class="fa-ul">
   <li>

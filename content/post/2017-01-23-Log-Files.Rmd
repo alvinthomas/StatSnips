@@ -11,11 +11,11 @@ comments: yes
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-![](https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/20170123-logs.jpg)
+![](https://raw.githubusercontent.com/StatSnips/statsnips.github.io/master/images/20170123-logs.jpg)
 
 I prefer to create new log files every time I (fully) run a Stata script. When I'm writing a script or testing code I might stop logging, but in general it's wise to keep logs of important runs.
 
-I store my logs in their own directory so that they don't clog up my code directory (see [organization](https://alvinthomas.github.io/2017/01/23/A-Note-on-Organization-Project-Files.html)). I title them with the scripts name followed by the date and time.
+I store my logs in their own directory so that they don't clog up my code directory (see [organization](https://statsnips.github.io/2017/01/23/A-Note-on-Organization-Project-Files.html)). I title them with the scripts name followed by the date and time.
 
 I prefer to generate a ton of log files. I don't like to scroll through a log file that has expired code from a month ago. Usually log files are small (in terms of hard drive space) that I don't worry about deleting them to save space. 
 

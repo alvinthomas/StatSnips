@@ -11,7 +11,7 @@ comments: yes
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-![](https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/20170123-organization.jpg)
+![](https://raw.githubusercontent.com/StatSnips/statsnips.github.io/master/images/20170123-organization.jpg)
 
 I appreciate organization in most aspects of my life and my digital footprint is no exception. I'm always looking for ways to optimize my workflow, I'll try to keep this post updated in the future.
 

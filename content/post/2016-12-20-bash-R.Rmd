@@ -11,9 +11,9 @@ comments: yes
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-![](https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/20161220-bash-R.jpg)
+![](https://raw.githubusercontent.com/StatSnips/statsnips.github.io/master/images/20161220-bash-R.jpg)
 
-I recently link [posted](https://alvinthomas.github.io/2016/12/20/Bash-Stata-on-Oracle-Grid-Engine-JHPCE/) on submitting Stata jobs to a Linux computing cluster running the Oracle Grid Engine. Here's a quick post on how to submit a R job.
+I recently link [posted](https://statsnips.github.io/2016/12/20/Bash-Stata-on-Oracle-Grid-Engine-JHPCE/) on submitting Stata jobs to a Linux computing cluster running the Oracle Grid Engine. Here's a quick post on how to submit a R job.
 
 I usually submit a `qsub` job by writing `qsub Scripts/NAME_OF_SCRIPT` into terminal. My R scripts use the following naming convention: `R<PROJECT>_v<NUM>.sh` or `R_018v1.sh` for a R bash file to run the v1 R script in the 018 project (I explain my project organization in another post). The command `qsub Scripts/R018v1.sh` will read the follow script. 
 

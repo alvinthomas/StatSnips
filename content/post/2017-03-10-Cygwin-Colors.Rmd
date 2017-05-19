@@ -15,7 +15,7 @@ comments: yes
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-![](https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/20170310-pac.png)
+![](https://raw.githubusercontent.com/StatSnips/statsnips.github.io/master/images/20170310-pac.png)
 
 I recently discovered that [Mintty](https://mintty.github.io/) is a great way to make your [Cygwin](https://cygwin.com/) terminal prettier. Mintty made my conversation from Fedora to Windows 10 and Cygwin more palatable.
 

@@ -13,7 +13,7 @@ comments: yes
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-![](https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/20170427_effort_report.jpg)
+![](https://raw.githubusercontent.com/StatSnips/statsnips.github.io/master/images/20170427_effort_report.jpg)
 
 I wanted to give a quick shoutout to the [Effort Report Podcast](https://twitter.com/theeffortreport) hosted by [Roger Peng](https://twitter.com/rdpeng) and [Elizabeth Matsui](https://twitter.com/elizabethmatsui). Both hosts are faculty members at Johns Hopkins (School of Public Health & School of Medicine) and they discuss issues that any budding academic should consider. 
 
