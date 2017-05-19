@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on StatSnips</title>
-    <link>/tags/windows/</link>
+    <link>https://statsnips.github.io/tags/windows/</link>
     <description>Recent content in Windows on StatSnips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Alvin Thomas. All Rights Reserved</copyright>
+    <copyright>&amp;copy; 2017 StatSnips. Distributed Under a MIT License.</copyright>
     <lastBuildDate>Fri, 10 Mar 2017 21:12:00 -0500</lastBuildDate>
     
-	<atom:link href="/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://statsnips.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cygwin Colors</title>
-      <link>/2017/03/10/cygwin-colors/</link>
+      <link>https://statsnips.github.io/2017/03/10/cygwin-colors/</link>
       <pubDate>Fri, 10 Mar 2017 21:12:00 -0500</pubDate>
       
-      <guid>/2017/03/10/cygwin-colors/</guid>
+      <guid>https://statsnips.github.io/2017/03/10/cygwin-colors/</guid>
       <description>I recently discovered that Mintty is a great way to make your Cygwin terminal prettier. Mintty made my conversation from Fedora to Windows 10 and Cygwin more palatable.
 Like all Cygwin pacakges/add-ons you’ll have to install it using the Cygwin installer. You can find some quick instructions at HowToGeek.
 While there are a number of themes out there, I really like this Base-16 inspired set. I’ve also done some other tweaks to make my Cygwin terminal behave like my Mac Terminal (such as transparency when not in focus).</description>

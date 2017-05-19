@@ -1,10 +1,10 @@
-baseurl = "https://alvinthomas.github.io/"
+baseurl = "https://statsnips.github.io/"
 relativeurls = true
 languageCode = "en-us"
 title = "StatSnips"
 theme = "blackburn"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
-copyright = "&copy; 2017 Alvin Thomas. All Rights Reserved"
+copyright = "&copy; 2017 StatSnips. Distributed Under a MIT License."
 canonifyurls = true
 paginate = 5
 
@@ -66,7 +66,7 @@ paginate = 5
     disqus = "statsnips"
     googleAnalytics = "UA-99083233-1"
     brand = '<img src="https://raw.githubusercontent.com/alvinthomas/alvinthomas.github.io/master/images/logo.png" height=25 </img>'
-    subtitle="Code snippets and musings from a statistically-inclined epidemiologist"
+    subtitle="Code snippets and musings from statistically-inclined epidemiologists"
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
     highlightjsCDN = "//cdn.bootcss.com"

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on StatSnips</title>
-    <link>/authors/</link>
+    <link>https://statsnips.github.io/authors/</link>
     <description>Recent content in Authors on StatSnips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Alvin Thomas. All Rights Reserved</copyright>
+    <copyright>&amp;copy; 2017 StatSnips. Distributed Under a MIT License.</copyright>
     <lastBuildDate>Fri, 12 May 2017 09:11:23 -0500</lastBuildDate>
     
-	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://statsnips.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alvin Thomas</title>
-      <link>/authors/alvin-thomas/</link>
+      <link>https://statsnips.github.io/authors/alvin-thomas/</link>
       <pubDate>Fri, 12 May 2017 09:11:23 -0500</pubDate>
       
-      <guid>/authors/alvin-thomas/</guid>
+      <guid>https://statsnips.github.io/authors/alvin-thomas/</guid>
       <description></description>
     </item>
     
