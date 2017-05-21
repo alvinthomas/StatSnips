@@ -9,7 +9,7 @@ This is a data science blog maintained by [**Alvin G. Thomas, MSPH**](https://gi
 
 If you have any questions, please contact Alvin by <a href="mailto:alvin@jhmi.edu">email</a>.
 
-You can also contact Alvin on:
+You can also contact *Alvin* on:
 
 <ul class="fa-ul">
   <li>
@@ -17,5 +17,16 @@ You can also contact Alvin on:
   </li>
   <li>
     <a href="https://github.com/alvinthomas" target="_blank"><i class="fa fa-github-square fa-lg"></i>@alvinthomas</a>
+  </li>
+</ul>
+
+You can contact *Ashton* on:
+
+<ul class="fa-ul">
+  <li>
+    <a href="https://twitter.com/ashtonsthoughts" target="_blank"><i class="fa fa-twitter-square fa-lg"></i>@ashtonsthoughts</a>
+  </li>
+  <li>
+    <a href="https://github.com/ashtonashaffer" target="_blank"><i class="fa fa-github-square fa-lg"></i>@ashtonashaffer</a>
   </li>
 </ul>
