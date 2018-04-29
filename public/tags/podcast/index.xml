@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Podcast on StatSnips</title>
-    <link>https://statsnips.github.io/tags/podcast/</link>
+    <link>/tags/podcast/</link>
     <description>Recent content in Podcast on StatSnips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 StatSnips. Distributed Under a MIT License.</copyright>
     <lastBuildDate>Thu, 27 Apr 2017 21:12:14 -0500</lastBuildDate>
     
-	<atom:link href="https://statsnips.github.io/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Effort Report Podcast</title>
-      <link>https://statsnips.github.io/2017/04/27/the-effort-report-podcast/</link>
+      <link>/2017/04/27/the-effort-report-podcast/</link>
       <pubDate>Thu, 27 Apr 2017 21:12:14 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2017/04/27/the-effort-report-podcast/</guid>
+      <guid>/2017/04/27/the-effort-report-podcast/</guid>
       <description>I wanted to give a quick shoutout to the Effort Report Podcast hosted by Roger Peng and Elizabeth Matsui. Both hosts are faculty members at Johns Hopkins (School of Public Health &amp;amp; School of Medicine) and they discuss issues that any budding academic should consider.
 I’ve listened to every podcast (some multiple times) and I’ve even joined the conversation on Twitter.</description>
     </item>

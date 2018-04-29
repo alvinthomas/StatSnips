@@ -2,139 +2,148 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on StatSnips</title>
-    <link>https://statsnips.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on StatSnips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 StatSnips. Distributed Under a MIT License.</copyright>
     <lastBuildDate>Thu, 27 Apr 2017 21:12:14 -0500</lastBuildDate>
     
-	<atom:link href="https://statsnips.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Academia</title>
-      <link>https://statsnips.github.io/tags/academia/</link>
+      <link>/tags/academia/</link>
       <pubDate>Thu, 27 Apr 2017 21:12:14 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/academia/</guid>
+      <guid>/tags/academia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bash</title>
-      <link>https://statsnips.github.io/tags/bash/</link>
+      <link>/tags/bash/</link>
       <pubDate>Tue, 20 Dec 2016 21:12:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/bash/</guid>
+      <guid>/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cygwin</title>
-      <link>https://statsnips.github.io/tags/cygwin/</link>
-      <pubDate>Fri, 10 Mar 2017 21:12:00 -0500</pubDate>
+      <link>/tags/cygwin/</link>
+      <pubDate>Tue, 08 Aug 2017 10:00:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/cygwin/</guid>
+      <guid>/tags/cygwin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>General</title>
-      <link>https://statsnips.github.io/tags/general/</link>
+      <link>/tags/general/</link>
       <pubDate>Mon, 12 Dec 2016 21:13:14 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/general/</guid>
+      <guid>/tags/general/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jhpce</title>
-      <link>https://statsnips.github.io/tags/jhpce/</link>
-      <pubDate>Tue, 20 Dec 2016 21:12:00 -0500</pubDate>
+      <link>/tags/jhpce/</link>
+      <pubDate>Tue, 08 Aug 2017 10:00:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/jhpce/</guid>
+      <guid>/tags/jhpce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://statsnips.github.io/tags/linux/</link>
-      <pubDate>Fri, 10 Mar 2017 21:12:00 -0500</pubDate>
+      <link>/tags/linux/</link>
+      <pubDate>Tue, 08 Aug 2017 10:00:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/linux/</guid>
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>/tags/mac/</link>
+      <pubDate>Tue, 08 Aug 2017 10:00:00 -0500</pubDate>
+      
+      <guid>/tags/mac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mintty</title>
-      <link>https://statsnips.github.io/tags/mintty/</link>
+      <link>/tags/mintty/</link>
       <pubDate>Fri, 10 Mar 2017 21:12:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/mintty/</guid>
+      <guid>/tags/mintty/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Misc</title>
-      <link>https://statsnips.github.io/tags/misc/</link>
+      <link>/tags/misc/</link>
       <pubDate>Mon, 23 Jan 2017 21:12:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/misc/</guid>
+      <guid>/tags/misc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Source</title>
-      <link>https://statsnips.github.io/tags/open-source/</link>
+      <link>/tags/open-source/</link>
       <pubDate>Mon, 12 Dec 2016 21:13:14 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/open-source/</guid>
+      <guid>/tags/open-source/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Podcast</title>
-      <link>https://statsnips.github.io/tags/podcast/</link>
+      <link>/tags/podcast/</link>
       <pubDate>Thu, 27 Apr 2017 21:12:14 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/podcast/</guid>
+      <guid>/tags/podcast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://statsnips.github.io/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Tue, 20 Dec 2016 21:12:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stata</title>
-      <link>https://statsnips.github.io/tags/stata/</link>
+      <link>/tags/stata/</link>
       <pubDate>Fri, 12 May 2017 09:11:23 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/stata/</guid>
+      <guid>/tags/stata/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visualization</title>
-      <link>https://statsnips.github.io/tags/visualization/</link>
+      <link>/tags/visualization/</link>
       <pubDate>Fri, 12 May 2017 09:11:23 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/visualization/</guid>
+      <guid>/tags/visualization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>https://statsnips.github.io/tags/windows/</link>
-      <pubDate>Fri, 10 Mar 2017 21:12:00 -0500</pubDate>
+      <link>/tags/windows/</link>
+      <pubDate>Tue, 08 Aug 2017 10:00:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/tags/windows/</guid>
+      <guid>/tags/windows/</guid>
       <description></description>
     </item>
     

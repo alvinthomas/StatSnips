@@ -2,22 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on StatSnips</title>
-    <link>https://statsnips.github.io/tags/linux/</link>
+    <link>/tags/linux/</link>
     <description>Recent content in Linux on StatSnips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 StatSnips. Distributed Under a MIT License.</copyright>
-    <lastBuildDate>Fri, 10 Mar 2017 21:12:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 08 Aug 2017 10:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://statsnips.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Getting Started with JHPCE</title>
+      <link>/2017/08/08/getting-started-with-jhpce/</link>
+      <pubDate>Tue, 08 Aug 2017 10:00:00 -0500</pubDate>
+      
+      <guid>/2017/08/08/getting-started-with-jhpce/</guid>
+      <description>What is JHPCE? JHPCE or the Joint High-Performance Computing Exchange is a computation resource available to members at the Johns Hopkins Medicial Institute (JHMI). Several research groups across the School of Public Health and School of Medicine tap into the power of JHPCE to run computationally expensive analyses - our transplant epidemiology group included.
+The JHPCE introduction to new users describes some use cases. This blog will be a brief introduction to getting your system ready to log onto the JHPCE cluster to use Stata-MP.</description>
+    </item>
+    
+    <item>
       <title>Cygwin Colors</title>
-      <link>https://statsnips.github.io/2017/03/10/cygwin-colors/</link>
+      <link>/2017/03/10/cygwin-colors/</link>
       <pubDate>Fri, 10 Mar 2017 21:12:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2017/03/10/cygwin-colors/</guid>
+      <guid>/2017/03/10/cygwin-colors/</guid>
       <description>I recently discovered that Mintty is a great way to make your Cygwin terminal prettier. Mintty made my conversation from Fedora to Windows 10 and Cygwin more palatable.
 Like all Cygwin pacakges/add-ons you’ll have to install it using the Cygwin installer. You can find some quick instructions at HowToGeek.
 While there are a number of themes out there, I really like this Base-16 inspired set. I’ve also done some other tweaks to make my Cygwin terminal behave like my Mac Terminal (such as transparency when not in focus).</description>
@@ -25,20 +35,20 @@ While there are a number of themes out there, I really like this Base-16 inspire
     
     <item>
       <title>Bash R on Oracle Grid Engine (JHPCE)</title>
-      <link>https://statsnips.github.io/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</link>
+      <link>/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</link>
       <pubDate>Tue, 20 Dec 2016 21:12:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</guid>
+      <guid>/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</guid>
       <description>I recently link posted on submitting Stata jobs to a Linux computing cluster running the Oracle Grid Engine. Here’s a quick post on how to submit a R job.
 I usually submit a qsub job by writing qsub Scripts/NAME_OF_SCRIPT into terminal. My R scripts use the following naming convention: R&amp;lt;PROJECT&amp;gt;_v&amp;lt;NUM&amp;gt;.sh or R_018v1.sh for a R bash file to run the v1 R script in the 018 project (I explain my project organization in another post).</description>
     </item>
     
     <item>
       <title>Bash Stata on Oracle Grid Engine (JHPCE)</title>
-      <link>https://statsnips.github.io/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</link>
+      <link>/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</link>
       <pubDate>Tue, 20 Dec 2016 21:12:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</guid>
+      <guid>/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</guid>
       <description>Some statistical jobs are either too memory-greedy or computationally intensive to run on a local machine. At the Johns Hopkins Medical Institutes (JHMI), researchers have access to a Linux cluster running a Oracle Grid Enginge (previously called the Sun Grid Engine).
 Jobs on the Joint HPC Exchange (JHPCE) can be run interactively with the qrsh command or through a qsub bash submission. JHPCE also has Stata-MP installed so that’s another reason why I use it for larger jobs.</description>
     </item>

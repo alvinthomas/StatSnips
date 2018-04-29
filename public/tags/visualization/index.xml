@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Visualization on StatSnips</title>
-    <link>https://statsnips.github.io/tags/visualization/</link>
+    <link>/tags/visualization/</link>
     <description>Recent content in Visualization on StatSnips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 StatSnips. Distributed Under a MIT License.</copyright>
     <lastBuildDate>Fri, 12 May 2017 09:11:23 -0500</lastBuildDate>
     
-	<atom:link href="https://statsnips.github.io/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Stata Schemes</title>
-      <link>https://statsnips.github.io/2017/05/12/stata-schemes/</link>
+      <link>/2017/05/12/stata-schemes/</link>
       <pubDate>Fri, 12 May 2017 09:11:23 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2017/05/12/stata-schemes/</guid>
+      <guid>/2017/05/12/stata-schemes/</guid>
       <description>Would you be surprised to find out that the figures above were made in Stata? I discover the work of Daniel Bischof about a year ago and it has changed the way I think about Stata figures.
 I have been a long time user of ggplot2, the graphing R package by R Guru Hadley Wickham. Some of my publication figures using ggplot2 are dozens of lines long. I enjoy fiddling with every aspect of the aesthetic to make a perfectly clear visualization.</description>
     </item>

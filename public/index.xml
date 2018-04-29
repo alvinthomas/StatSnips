@@ -2,32 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>StatSnips</title>
-    <link>https://statsnips.github.io/</link>
+    <link>/</link>
     <description>Recent content on StatSnips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 StatSnips. Distributed Under a MIT License.</copyright>
-    <lastBuildDate>Fri, 12 May 2017 09:11:23 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 08 Aug 2017 10:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://statsnips.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Getting Started with JHPCE</title>
+      <link>/2017/08/08/getting-started-with-jhpce/</link>
+      <pubDate>Tue, 08 Aug 2017 10:00:00 -0500</pubDate>
+      
+      <guid>/2017/08/08/getting-started-with-jhpce/</guid>
+      <description>What is JHPCE? JHPCE or the Joint High-Performance Computing Exchange is a computation resource available to members at the Johns Hopkins Medicial Institute (JHMI). Several research groups across the School of Public Health and School of Medicine tap into the power of JHPCE to run computationally expensive analyses - our transplant epidemiology group included.
+The JHPCE introduction to new users describes some use cases. This blog will be a brief introduction to getting your system ready to log onto the JHPCE cluster to use Stata-MP.</description>
+    </item>
+    
+    <item>
       <title>Stata Schemes</title>
-      <link>https://statsnips.github.io/2017/05/12/stata-schemes/</link>
+      <link>/2017/05/12/stata-schemes/</link>
       <pubDate>Fri, 12 May 2017 09:11:23 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2017/05/12/stata-schemes/</guid>
+      <guid>/2017/05/12/stata-schemes/</guid>
       <description>Would you be surprised to find out that the figures above were made in Stata? I discover the work of Daniel Bischof about a year ago and it has changed the way I think about Stata figures.
 I have been a long time user of ggplot2, the graphing R package by R Guru Hadley Wickham. Some of my publication figures using ggplot2 are dozens of lines long. I enjoy fiddling with every aspect of the aesthetic to make a perfectly clear visualization.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://statsnips.github.io/about/</link>
+      <link>/about/</link>
       <pubDate>Thu, 11 May 2017 21:48:51 -0700</pubDate>
       
-      <guid>https://statsnips.github.io/about/</guid>
+      <guid>/about/</guid>
       <description>This is a data science blog maintained by Alvin G. Thomas, MSPH and Ashton Shaffer, BA. Additonal support is provided by Bryn Shaffer, PhDog.
 Alvin is Research Data Analyst with the Epidemiology Research Group in Transplantation (ERGOT) at The Johns Hopkins University School of Medicine. He currently uses national registry data to answer interesting questions in transplantation. See his scholarly work here.
 Ashton is a MD/PhD student at The Johns Hopkins University School of Medicine and Bloomberg School of Public Health.</description>
@@ -35,20 +45,20 @@ Ashton is a MD/PhD student at The Johns Hopkins University School of Medicine an
     
     <item>
       <title>The Effort Report Podcast</title>
-      <link>https://statsnips.github.io/2017/04/27/the-effort-report-podcast/</link>
+      <link>/2017/04/27/the-effort-report-podcast/</link>
       <pubDate>Thu, 27 Apr 2017 21:12:14 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2017/04/27/the-effort-report-podcast/</guid>
+      <guid>/2017/04/27/the-effort-report-podcast/</guid>
       <description>I wanted to give a quick shoutout to the Effort Report Podcast hosted by Roger Peng and Elizabeth Matsui. Both hosts are faculty members at Johns Hopkins (School of Public Health &amp;amp; School of Medicine) and they discuss issues that any budding academic should consider.
 I’ve listened to every podcast (some multiple times) and I’ve even joined the conversation on Twitter.</description>
     </item>
     
     <item>
       <title>Cygwin Colors</title>
-      <link>https://statsnips.github.io/2017/03/10/cygwin-colors/</link>
+      <link>/2017/03/10/cygwin-colors/</link>
       <pubDate>Fri, 10 Mar 2017 21:12:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2017/03/10/cygwin-colors/</guid>
+      <guid>/2017/03/10/cygwin-colors/</guid>
       <description>I recently discovered that Mintty is a great way to make your Cygwin terminal prettier. Mintty made my conversation from Fedora to Windows 10 and Cygwin more palatable.
 Like all Cygwin pacakges/add-ons you’ll have to install it using the Cygwin installer. You can find some quick instructions at HowToGeek.
 While there are a number of themes out there, I really like this Base-16 inspired set. I’ve also done some other tweaks to make my Cygwin terminal behave like my Mac Terminal (such as transparency when not in focus).</description>
@@ -56,60 +66,60 @@ While there are a number of themes out there, I really like this Base-16 inspire
     
     <item>
       <title>Stata Log Files</title>
-      <link>https://statsnips.github.io/2017/01/23/stata-log-files/</link>
+      <link>/2017/01/23/stata-log-files/</link>
       <pubDate>Mon, 23 Jan 2017 21:13:14 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2017/01/23/stata-log-files/</guid>
+      <guid>/2017/01/23/stata-log-files/</guid>
       <description>I prefer to create new log files every time I (fully) run a Stata script. When I’m writing a script or testing code I might stop logging, but in general it’s wise to keep logs of important runs.
 I store my logs in their own directory so that they don’t clog up my code directory (see organization). I title them with the scripts name followed by the date and time.</description>
     </item>
     
     <item>
       <title>A Note on Organization: Project Files</title>
-      <link>https://statsnips.github.io/2017/01/23/a-note-on-organization-project-files/</link>
+      <link>/2017/01/23/a-note-on-organization-project-files/</link>
       <pubDate>Mon, 23 Jan 2017 21:12:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2017/01/23/a-note-on-organization-project-files/</guid>
+      <guid>/2017/01/23/a-note-on-organization-project-files/</guid>
       <description>I appreciate organization in most aspects of my life and my digital footprint is no exception. I’m always looking for ways to optimize my workflow, I’ll try to keep this post updated in the future.
 I use git to organize my work files - including text documents, presentations, and code. Git allows me to work across multiple platforms and control my versioning with decent precision. I work with sensitive data files so I always have git ignore data files (see gist).</description>
     </item>
     
     <item>
       <title>Bash R on Oracle Grid Engine (JHPCE)</title>
-      <link>https://statsnips.github.io/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</link>
+      <link>/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</link>
       <pubDate>Tue, 20 Dec 2016 21:12:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</guid>
+      <guid>/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</guid>
       <description>I recently link posted on submitting Stata jobs to a Linux computing cluster running the Oracle Grid Engine. Here’s a quick post on how to submit a R job.
 I usually submit a qsub job by writing qsub Scripts/NAME_OF_SCRIPT into terminal. My R scripts use the following naming convention: R&amp;lt;PROJECT&amp;gt;_v&amp;lt;NUM&amp;gt;.sh or R_018v1.sh for a R bash file to run the v1 R script in the 018 project (I explain my project organization in another post).</description>
     </item>
     
     <item>
       <title>Bash Stata on Oracle Grid Engine (JHPCE)</title>
-      <link>https://statsnips.github.io/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</link>
+      <link>/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</link>
       <pubDate>Tue, 20 Dec 2016 21:12:00 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</guid>
+      <guid>/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</guid>
       <description>Some statistical jobs are either too memory-greedy or computationally intensive to run on a local machine. At the Johns Hopkins Medical Institutes (JHMI), researchers have access to a Linux cluster running a Oracle Grid Enginge (previously called the Sun Grid Engine).
 Jobs on the Joint HPC Exchange (JHPCE) can be run interactively with the qrsh command or through a qsub bash submission. JHPCE also has Stata-MP installed so that’s another reason why I use it for larger jobs.</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://statsnips.github.io/2016/12/12/hello-world/</link>
+      <link>/2016/12/12/hello-world/</link>
       <pubDate>Mon, 12 Dec 2016 21:13:14 -0500</pubDate>
       
-      <guid>https://statsnips.github.io/2016/12/12/hello-world/</guid>
+      <guid>/2016/12/12/hello-world/</guid>
       <description>You might not think that programmers are artists, but programming is an extremely creative profession. It’s logic-based creativity. - John Romero
  I hope to use this space to post code snippets to make my life and the lives of other statistical programmers easier. As an epidemiologist, I use data from national registries and clinical trials to answer interesting questions in public health, surgery, and medicine. I code mostly in Stata and R, but I’m always interested in optimizing my workflow and learning new techniques.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://statsnips.github.io/contact/</link>
+      <link>/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://statsnips.github.io/contact/</guid>
+      <guid>/contact/</guid>
       <description> This is a data science blog maintained by Alvin G. Thomas, MSPH and Ashton Shaffer, BA. Additonal support is provided by Bryn Shaffer, PhDog.
 If you have any questions, please contact Alvin by email.
 You can also contact Alvin on:

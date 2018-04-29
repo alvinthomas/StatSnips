@@ -72,5 +72,5 @@ After you finish the installation, boot up Cygwin and move on to the next sectio
 
 During JHPCE orientation, you'll be introduced to the JHPCE cluster and set-up 2-factor authentication. While the security benefits of [2-factor authentication](https://jhpce.jhu.edu/knowledge-base/authentication/2-factor-authentication/) are valuable, it is not always the easiest practice to abide by when you log onto the cluster multiple times per day. JHPCE admins allow users that abide by Hopkins IT recommendations (encrypted hard drive and password protected machines) to [use SSH](https://jhpce.jhu.edu/knowledge-base/authentication/ssh-key-setup/) to bypass 2-factor authentication.
 
-with SSH your cluster account will recognize the machine you're logging in from and let you get on with no extra fuss. The JHPCE introductions 
+with SSH your cluster account will recognize the machine you're logging in from and let you get on with no extra fuss. The JHPCE introductions can be found [here](https://jhpce.jhu.edu/knowledge-base/authentication/ssh-key-setup/).
 

@@ -1,171 +1,183 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://statsnips.github.io/2017/05/12/stata-schemes/</loc>
+    <loc>/2017/08/08/getting-started-with-jhpce/</loc>
+    <lastmod>2017-08-08T10:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/05/12/stata-schemes/</loc>
     <lastmod>2017-05-12T09:11:23-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2017-05-11T21:48:51-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/2017/04/27/the-effort-report-podcast/</loc>
+    <loc>/2017/04/27/the-effort-report-podcast/</loc>
     <lastmod>2017-04-27T21:12:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/2017/03/10/cygwin-colors/</loc>
+    <loc>/2017/03/10/cygwin-colors/</loc>
     <lastmod>2017-03-10T21:12:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/2017/01/23/stata-log-files/</loc>
+    <loc>/2017/01/23/stata-log-files/</loc>
     <lastmod>2017-01-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/2017/01/23/a-note-on-organization-project-files/</loc>
+    <loc>/2017/01/23/a-note-on-organization-project-files/</loc>
     <lastmod>2017-01-23T21:12:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</loc>
+    <loc>/2016/12/20/bash-r-on-oracle-grid-engine-jhpce/</loc>
     <lastmod>2016-12-20T21:12:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</loc>
+    <loc>/2016/12/20/bash-stata-on-oracle-grid-engine-jhpce/</loc>
     <lastmod>2016-12-20T21:12:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/2016/12/12/hello-world/</loc>
+    <loc>/2016/12/12/hello-world/</loc>
     <lastmod>2016-12-12T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/academia/</loc>
+    <loc>/tags/academia/</loc>
     <lastmod>2017-04-27T21:12:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/authors/alvin-thomas/</loc>
-    <lastmod>2017-05-12T09:11:23-05:00</lastmod>
+    <loc>/authors/alvin-thomas/</loc>
+    <lastmod>2017-08-08T10:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/authors/</loc>
-    <lastmod>2017-05-12T09:11:23-05:00</lastmod>
+    <loc>/authors/</loc>
+    <lastmod>2017-08-08T10:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/bash/</loc>
+    <loc>/tags/bash/</loc>
     <lastmod>2016-12-20T21:12:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/contact/</loc>
+    <loc>/contact/</loc>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/cygwin/</loc>
-    <lastmod>2017-03-10T21:12:00-05:00</lastmod>
+    <loc>/tags/cygwin/</loc>
+    <lastmod>2017-08-08T10:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/general/</loc>
+    <loc>/tags/general/</loc>
     <lastmod>2016-12-12T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/jhpce/</loc>
-    <lastmod>2016-12-20T21:12:00-05:00</lastmod>
+    <loc>/tags/jhpce/</loc>
+    <lastmod>2017-08-08T10:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/linux/</loc>
+    <loc>/tags/linux/</loc>
+    <lastmod>2017-08-08T10:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mac/</loc>
+    <lastmod>2017-08-08T10:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mintty/</loc>
     <lastmod>2017-03-10T21:12:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/mintty/</loc>
-    <lastmod>2017-03-10T21:12:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://statsnips.github.io/tags/misc/</loc>
+    <loc>/tags/misc/</loc>
     <lastmod>2017-01-23T21:12:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/open-source/</loc>
+    <loc>/tags/open-source/</loc>
     <lastmod>2016-12-12T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/podcast/</loc>
+    <loc>/tags/podcast/</loc>
     <lastmod>2017-04-27T21:12:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/post/</loc>
-    <lastmod>2017-05-12T09:11:23-05:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2017-08-08T10:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2016-12-20T21:12:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/</loc>
+    <loc>/</loc>
+    <lastmod>2017-08-08T10:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/stata/</loc>
     <lastmod>2017-05-12T09:11:23-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/stata/</loc>
-    <lastmod>2017-05-12T09:11:23-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://statsnips.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2017-04-27T21:12:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/topics/</loc>
+    <loc>/topics/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/visualization/</loc>
+    <loc>/tags/visualization/</loc>
     <lastmod>2017-05-12T09:11:23-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://statsnips.github.io/tags/windows/</loc>
-    <lastmod>2017-03-10T21:12:00-05:00</lastmod>
+    <loc>/tags/windows/</loc>
+    <lastmod>2017-08-08T10:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
