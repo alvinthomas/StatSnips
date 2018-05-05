@@ -1,4 +1,4 @@
-baseurl = "statsnips.com"
+baseurl = "https://statsnips.github.io"
 relativeurls = true
 languageCode = "en-us"
 title = "StatSnips"
@@ -57,7 +57,7 @@ paginate = 5
     pre = "<i class='fa fa-github fa-fw'></i>"
     identifier = "github"
     weight = 7
-    url = "statsnips.com"
+    url = "https://statsnips.github.io"
 
 [params]
     description = ""
