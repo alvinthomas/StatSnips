@@ -2,3 +2,4 @@
 *.Rhistory
 *.dta
 *.RDataTmp
+*.DS_Store
